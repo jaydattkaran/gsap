@@ -21,6 +21,6 @@ imageDiv.addEventListener("mouseleave", function(){
     cursor.innerHTML = ""
     gsap.to(cursor,{
         scale:1,
-        backgroundColor:"#fff"
+        backgroundColor: "#fff"
     })
 })
