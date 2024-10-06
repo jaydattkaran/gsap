@@ -10,17 +10,26 @@ main.addEventListener("mousemove", function(dets){
     })
 })
 imageDiv.addEventListener("mouseenter", function(){
-    cursor.innerHTML = "view more"
+    // cursor.innerHTML = "view more"
 
+    // gsap.to("#overlay", {
+    //     opacity:1
+    // })
     gsap.to(cursor,{
         scale:3,
+        borderRadius:"10%",
         backgroundColor:"#ffffff8a"
     })
 })
 imageDiv.addEventListener("mouseleave", function(){
-    cursor.innerHTML = ""
+    // cursor.innerHTML = ""
+
+    // gsap.to("#overlay", {
+    //     opacity:0
+    // })
     gsap.to(cursor,{
         scale:1,
+        borderRadius:"50%",
         backgroundColor: "#fff"
     })
 })
