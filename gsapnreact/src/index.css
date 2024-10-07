@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+}
+main{
+  padding: 20vh 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: 10vw;
+  height: 5vh;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+
+  &:active{
+    scale: 0.9;
+  }
+}
+
+.box{
+  width: 10vw;
+  height: 10vw;
+  border-radius: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 25px;
+}
+/* .container{
+  width: 20vw;
+  height: 60vh;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+
+  .circle{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: aquamarine;
+  }
+  .box{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1%;
+    background-color: crimson;
+  }
+} */
+/* .second-container{
+  width: 20vw;
+  height: 60vh;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+
+  .circle{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: aquamarine;
+  }
+  .box{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+    background-color: crimson;
+  }
+} */
